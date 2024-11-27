@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+div,
+.nissan {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+}
+div {
+  background-image: url(./imgs/batmobile-concept-car-with-neon-lights.jpg);
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+  padding-top: 100px;
+  color: rgb(255, 0, 0);
+}
+p {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  padding: 20px 30px;
+  margin: 0;
+}
+section {
+  padding: 50px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+.nissan {
+  background-image: url(./imgs/683123.jpg);
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  .nissan {
+    background-position: center;
+  }
+  div {
+    background-position: center;
+  }
+}
